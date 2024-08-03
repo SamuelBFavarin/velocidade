@@ -11,10 +11,10 @@
 		7D1C68242C5D7A2D0034F802 /* VelocidadeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68232C5D7A2D0034F802 /* VelocidadeApp.swift */; };
 		7D1C68262C5D7A2D0034F802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68252C5D7A2D0034F802 /* ContentView.swift */; };
 		7D1C68282C5D7A2E0034F802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C68272C5D7A2E0034F802 /* Assets.xcassets */; };
-		7D1C682B2C5D7A2E0034F802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C682A2C5D7A2E0034F802 /* Preview Assets.xcassets */; };
 		7D1C68352C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68342C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift */; };
 		7D1C683F2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C683E2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift */; };
 		7D1C68412C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68402C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift */; };
+		7D1C68542C5E523B0034F802 /* SpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68532C5E523B0034F802 /* SpeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +61,12 @@
 		7D1C68232C5D7A2D0034F802 /* VelocidadeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocidadeApp.swift; sourceTree = "<group>"; };
 		7D1C68252C5D7A2D0034F802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D1C68272C5D7A2E0034F802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D1C682A2C5D7A2E0034F802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D1C68302C5D7A2E0034F802 /* Velocidade Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocidade Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1C68342C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocidade_Watch_AppTests.swift; sourceTree = "<group>"; };
 		7D1C683A2C5D7A2E0034F802 /* Velocidade Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocidade Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1C683E2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocidade_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		7D1C68402C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocidade_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D1C68532C5E523B0034F802 /* SpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,17 +121,9 @@
 				7D1C68232C5D7A2D0034F802 /* VelocidadeApp.swift */,
 				7D1C68252C5D7A2D0034F802 /* ContentView.swift */,
 				7D1C68272C5D7A2E0034F802 /* Assets.xcassets */,
-				7D1C68292C5D7A2E0034F802 /* Preview Content */,
+				7D1C68532C5E523B0034F802 /* SpeedView.swift */,
 			);
 			path = "Velocidade Watch App";
-			sourceTree = "<group>";
-		};
-		7D1C68292C5D7A2E0034F802 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				7D1C682A2C5D7A2E0034F802 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		7D1C68332C5D7A2E0034F802 /* Velocidade Watch AppTests */ = {
@@ -283,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D1C682B2C5D7A2E0034F802 /* Preview Assets.xcassets in Resources */,
 				7D1C68282C5D7A2E0034F802 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +302,7 @@
 			files = (
 				7D1C68262C5D7A2D0034F802 /* ContentView.swift in Sources */,
 				7D1C68242C5D7A2D0034F802 /* VelocidadeApp.swift in Sources */,
+				7D1C68542C5E523B0034F802 /* SpeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

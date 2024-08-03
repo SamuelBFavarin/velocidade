@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            SpeedView(
+                speed: 72.2
+            ).tag(0)
+            SpeedView(
+                speed: 102.3,
+                unit: "m/s"
+            ).tag(1)
+            AltitudeView(
+                altitude: 23
+            ).tag(2)
         }
-        .padding()
+        .tabViewStyle(PageTabViewStyle())
     }
+
 }
 
 #Preview {
