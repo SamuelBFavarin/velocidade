@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1C681F2C5D7A2D0034F802 /* Velocidade Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7D1C681E2C5D7A2D0034F802 /* Velocidade Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D1C68242C5D7A2D0034F802 /* VelocidadeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68232C5D7A2D0034F802 /* VelocidadeApp.swift */; };
+		7D1C68262C5D7A2D0034F802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68252C5D7A2D0034F802 /* ContentView.swift */; };
+		7D1C68282C5D7A2E0034F802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C68272C5D7A2E0034F802 /* Assets.xcassets */; };
+		7D1C682B2C5D7A2E0034F802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C682A2C5D7A2E0034F802 /* Preview Assets.xcassets */; };
+		7D1C68352C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68342C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift */; };
+		7D1C683F2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C683E2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift */; };
+		7D1C68412C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C68402C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D1C68202C5D7A2D0034F802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1C68122C5D7A2D0034F802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1C681D2C5D7A2D0034F802;
+			remoteInfo = "Velocidade Watch App";
+		};
+		7D1C68312C5D7A2E0034F802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1C68122C5D7A2D0034F802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1C681D2C5D7A2D0034F802;
+			remoteInfo = "Velocidade Watch App";
+		};
+		7D1C683B2C5D7A2E0034F802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1C68122C5D7A2D0034F802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1C681D2C5D7A2D0034F802;
+			remoteInfo = "Velocidade Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D1C68472C5D7A2E0034F802 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7D1C681F2C5D7A2D0034F802 /* Velocidade Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D1C68182C5D7A2D0034F802 /* Velocidade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velocidade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1C681E2C5D7A2D0034F802 /* Velocidade Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Velocidade Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1C68232C5D7A2D0034F802 /* VelocidadeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocidadeApp.swift; sourceTree = "<group>"; };
+		7D1C68252C5D7A2D0034F802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D1C68272C5D7A2E0034F802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1C682A2C5D7A2E0034F802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D1C68302C5D7A2E0034F802 /* Velocidade Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocidade Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1C68342C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocidade_Watch_AppTests.swift; sourceTree = "<group>"; };
+		7D1C683A2C5D7A2E0034F802 /* Velocidade Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocidade Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1C683E2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocidade_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		7D1C68402C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocidade_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1C681B2C5D7A2D0034F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C682D2C5D7A2E0034F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C68372C5D7A2E0034F802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D1C68112C5D7A2D0034F802 = {
+			isa = PBXGroup;
+			children = (
+				7D1C68222C5D7A2D0034F802 /* Velocidade Watch App */,
+				7D1C68332C5D7A2E0034F802 /* Velocidade Watch AppTests */,
+				7D1C683D2C5D7A2E0034F802 /* Velocidade Watch AppUITests */,
+				7D1C68192C5D7A2D0034F802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D1C68192C5D7A2D0034F802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C68182C5D7A2D0034F802 /* Velocidade.app */,
+				7D1C681E2C5D7A2D0034F802 /* Velocidade Watch App.app */,
+				7D1C68302C5D7A2E0034F802 /* Velocidade Watch AppTests.xctest */,
+				7D1C683A2C5D7A2E0034F802 /* Velocidade Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D1C68222C5D7A2D0034F802 /* Velocidade Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C68232C5D7A2D0034F802 /* VelocidadeApp.swift */,
+				7D1C68252C5D7A2D0034F802 /* ContentView.swift */,
+				7D1C68272C5D7A2E0034F802 /* Assets.xcassets */,
+				7D1C68292C5D7A2E0034F802 /* Preview Content */,
+			);
+			path = "Velocidade Watch App";
+			sourceTree = "<group>";
+		};
+		7D1C68292C5D7A2E0034F802 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C682A2C5D7A2E0034F802 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D1C68332C5D7A2E0034F802 /* Velocidade Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C68342C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift */,
+			);
+			path = "Velocidade Watch AppTests";
+			sourceTree = "<group>";
+		};
+		7D1C683D2C5D7A2E0034F802 /* Velocidade Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C683E2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift */,
+				7D1C68402C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Velocidade Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1C68172C5D7A2D0034F802 /* Velocidade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1C68482C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade" */;
+			buildPhases = (
+				7D1C68162C5D7A2D0034F802 /* Resources */,
+				7D1C68472C5D7A2E0034F802 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1C68212C5D7A2D0034F802 /* PBXTargetDependency */,
+			);
+			name = Velocidade;
+			productName = Velocidade;
+			productReference = 7D1C68182C5D7A2D0034F802 /* Velocidade.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		7D1C681D2C5D7A2D0034F802 /* Velocidade Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1C68442C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade Watch App" */;
+			buildPhases = (
+				7D1C681A2C5D7A2D0034F802 /* Sources */,
+				7D1C681B2C5D7A2D0034F802 /* Frameworks */,
+				7D1C681C2C5D7A2D0034F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Velocidade Watch App";
+			productName = "Velocidade Watch App";
+			productReference = 7D1C681E2C5D7A2D0034F802 /* Velocidade Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D1C682F2C5D7A2E0034F802 /* Velocidade Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1C684B2C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade Watch AppTests" */;
+			buildPhases = (
+				7D1C682C2C5D7A2E0034F802 /* Sources */,
+				7D1C682D2C5D7A2E0034F802 /* Frameworks */,
+				7D1C682E2C5D7A2E0034F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1C68322C5D7A2E0034F802 /* PBXTargetDependency */,
+			);
+			name = "Velocidade Watch AppTests";
+			productName = "Velocidade Watch AppTests";
+			productReference = 7D1C68302C5D7A2E0034F802 /* Velocidade Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D1C68392C5D7A2E0034F802 /* Velocidade Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1C684E2C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade Watch AppUITests" */;
+			buildPhases = (
+				7D1C68362C5D7A2E0034F802 /* Sources */,
+				7D1C68372C5D7A2E0034F802 /* Frameworks */,
+				7D1C68382C5D7A2E0034F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1C683C2C5D7A2E0034F802 /* PBXTargetDependency */,
+			);
+			name = "Velocidade Watch AppUITests";
+			productName = "Velocidade Watch AppUITests";
+			productReference = 7D1C683A2C5D7A2E0034F802 /* Velocidade Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1C68122C5D7A2D0034F802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7D1C68172C5D7A2D0034F802 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7D1C681D2C5D7A2D0034F802 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7D1C682F2C5D7A2E0034F802 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7D1C681D2C5D7A2D0034F802;
+					};
+					7D1C68392C5D7A2E0034F802 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7D1C681D2C5D7A2D0034F802;
+					};
+				};
+			};
+			buildConfigurationList = 7D1C68152C5D7A2D0034F802 /* Build configuration list for PBXProject "Velocidade" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D1C68112C5D7A2D0034F802;
+			productRefGroup = 7D1C68192C5D7A2D0034F802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1C68172C5D7A2D0034F802 /* Velocidade */,
+				7D1C681D2C5D7A2D0034F802 /* Velocidade Watch App */,
+				7D1C682F2C5D7A2E0034F802 /* Velocidade Watch AppTests */,
+				7D1C68392C5D7A2E0034F802 /* Velocidade Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1C68162C5D7A2D0034F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C681C2C5D7A2D0034F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1C682B2C5D7A2E0034F802 /* Preview Assets.xcassets in Resources */,
+				7D1C68282C5D7A2E0034F802 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C682E2C5D7A2E0034F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C68382C5D7A2E0034F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1C681A2C5D7A2D0034F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1C68262C5D7A2D0034F802 /* ContentView.swift in Sources */,
+				7D1C68242C5D7A2D0034F802 /* VelocidadeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C682C2C5D7A2E0034F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1C68352C5D7A2E0034F802 /* Velocidade_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1C68362C5D7A2E0034F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1C68412C5D7A2E0034F802 /* Velocidade_Watch_AppUITestsLaunchTests.swift in Sources */,
+				7D1C683F2C5D7A2E0034F802 /* Velocidade_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D1C68212C5D7A2D0034F802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1C681D2C5D7A2D0034F802 /* Velocidade Watch App */;
+			targetProxy = 7D1C68202C5D7A2D0034F802 /* PBXContainerItemProxy */;
+		};
+		7D1C68322C5D7A2E0034F802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1C681D2C5D7A2D0034F802 /* Velocidade Watch App */;
+			targetProxy = 7D1C68312C5D7A2E0034F802 /* PBXContainerItemProxy */;
+		};
+		7D1C683C2C5D7A2E0034F802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1C681D2C5D7A2D0034F802 /* Velocidade Watch App */;
+			targetProxy = 7D1C683B2C5D7A2E0034F802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D1C68422C5D7A2E0034F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D1C68432C5D7A2E0034F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7D1C68452C5D7A2E0034F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Velocidade Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Velocidade;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.island.Velocidade.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		7D1C68462C5D7A2E0034F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Velocidade Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Velocidade;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.island.Velocidade.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		7D1C68492C5D7A2E0034F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Velocidade;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.island.Velocidade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D1C684A2C5D7A2E0034F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Velocidade;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.island.Velocidade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D1C684C2C5D7A2E0034F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.island.Velocidade-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Velocidade Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Velocidade Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		7D1C684D2C5D7A2E0034F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.island.Velocidade-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Velocidade Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Velocidade Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		7D1C684F2C5D7A2E0034F802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.island.Velocidade-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Velocidade Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		7D1C68502C5D7A2E0034F802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.island.Velocidade-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Velocidade Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1C68152C5D7A2D0034F802 /* Build configuration list for PBXProject "Velocidade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1C68422C5D7A2E0034F802 /* Debug */,
+				7D1C68432C5D7A2E0034F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1C68442C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1C68452C5D7A2E0034F802 /* Debug */,
+				7D1C68462C5D7A2E0034F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1C68482C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1C68492C5D7A2E0034F802 /* Debug */,
+				7D1C684A2C5D7A2E0034F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1C684B2C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1C684C2C5D7A2E0034F802 /* Debug */,
+				7D1C684D2C5D7A2E0034F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1C684E2C5D7A2E0034F802 /* Build configuration list for PBXNativeTarget "Velocidade Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1C684F2C5D7A2E0034F802 /* Debug */,
+				7D1C68502C5D7A2E0034F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1C68122C5D7A2D0034F802 /* Project object */;
+}
