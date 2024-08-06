@@ -9,17 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @StateObject private var locationManager = LocationManager()
+    
     var body: some View {
         TabView {
             SpeedView(
-                speed: 72.2
+                speed: locationManager.kmhSpeed
             ).tag(0)
             SpeedView(
-                speed: 102.3,
+                speed: locationManager.msSpeed,
                 unit: "m/s"
             ).tag(1)
             AltitudeView(
-                altitude: 23
+                altitude: locationManager.altitude
             ).tag(2)
         }
         .tabViewStyle(PageTabViewStyle())

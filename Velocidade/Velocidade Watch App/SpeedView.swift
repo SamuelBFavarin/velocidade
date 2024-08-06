@@ -9,13 +9,13 @@ import SwiftUI
 
 struct SpeedView: View {
     
-    var speed: Float = 0.0
+    var speed: Double = 0.0
     var unit: String = "km/h"
     
     var body: some View {
         VStack {
             Text("Current Speed")
-            Text(String(speed))
+            Text(String(format: "%.2f", speed))
                 .font(.system(size: 42, weight: .bold, design: .default))
                 .fontWeight(.heavy)
                 .multilineTextAlignment(.center)
@@ -29,7 +29,7 @@ struct SpeedView: View {
 
 struct AltitudeView: View {
 
-    var altitude: Int = 0
+    var altitude: Double = 0.0
     var body: some View {
         VStack {
             Text("Current Altitude")
